@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thông tin về việc nuôi dạy trẻ em</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Thông tin về việc nuôi dạy trẻ em</h1>
+  <form id="childcareForm" action="process.php" method="post">
+    <label for="childName">Tên trẻ em:</label>
+    <input type="text" id="childName" name="childName" required><br><br>
+
+    <label for="parentName">Tên phụ huynh:</label>
+    <input type="text" id="parentName" name="parentName" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <input type="submit" value="Gửi thông tin">
+  </form>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
